@@ -1,0 +1,158 @@
+body{
+    margin: -1px -1px -1px -1px;
+    background-color: black;
+    background-image: url();
+}
+
+.header{
+    background-image: linear-gradient(rgba(255, 0, 98, 0.548),rgba(255, 0, 0, 0.938)), url(/assets/bg1.jpg);
+    height: 65vh;
+    width: 100%;
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+.nav{
+    display: flex;
+    padding: 3px;
+}
+
+.nav {
+    img{
+        width: 150px;
+    }
+}
+
+.nav ul{
+    text-align: left;
+    flex: 1;
+}
+
+.nav ul li{
+    margin: 1px 1px 1px 1px;
+    display:inline-block;
+    text-align: left;
+    padding: 10px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: #fff;    
+}
+.nav ul li:hover a{
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 255, 255);
+    color: red;
+  
+  }
+
+h1{
+    color: red;
+}
+
+#h1i{
+    color: white;
+}
+
+/*button align*/
+#button1{
+    position: absolute; /* Set the position to absolute */
+    bottom: 0; /* Align the button to the bottom */
+    left: 0; /* Align the button to the left */
+    margin: 300px 20px;
+}
+
+/*Button Degine*/
+#button1{
+    padding: 15px 30px; /* Add padding */
+    border: none; /* Remove border */
+    border-radius: 30px; /* Add rounded corners */
+    background-image: linear-gradient(to right, #fa0000 0%, #fe5d00 100%); /* Add gradient background */
+    color: white; /* Set text color to white */
+    font-size: 16px; /* Set font size */
+    font-weight: bold; /* Set font weight */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+    cursor: pointer; /* Change cursor on hover */
+    transition: all 0.3s ease; /* Add transition effect */
+}
+
+#text1{
+
+    color: white;
+    font-size: 70px;
+    margin: 140px 170px;
+    
+}
+#text2{
+
+    color: rgb(238, 255, 0);
+    margin: 100px -370px;
+    
+}
+
+.header ul li{
+    font-size: large;
+
+}
+
+.inline1{
+    background-color: rgb(32, 32, 32);
+    height: 60vh;
+    width: 100%;
+}
+
+#text3{
+    color: white;
+    font-size: 70px;
+    text-align: center;
+}
+
+#img1{
+    text-align: center;
+    width: 400px;
+    height: auto;
+}
+#img2{
+    width: 400px;
+    height: auto;
+}
+#img3{
+    width: 400px;
+    height: auto;
+}
+
+.text-overlay {
+    font-size: 20px;
+    border-radius: 10px;
+    position: absolute; /* Position the text absolutely within the container */
+    top: 115%; /* Position the text vertically centered */
+    left: 15%; /* Position the text horizontally centered */
+    transform: translate(-50%, -50%); /* Move the text back by half of its own width and height to center it */
+    background-color: rgba(49, 47, 47, 0.616); /* Add a semi-transparent background */
+    padding: 10px; /* Add padding to the text */
+}
+
+#text4{
+    color: white;
+}
+
+#aref1{
+    color: white;
+    text-decoration: none;
+}
+
+.inline2{
+    border-radius: 10px;
+    position: absolute;
+    top: 10vh;
+    left: 100vh;
+
+
+}
+
+#img4{
+    width: 500px;
+    height: auto;
+}
